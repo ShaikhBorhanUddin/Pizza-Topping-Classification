@@ -18,6 +18,7 @@
 ## 🍕 Project Overview
 
 ## 📂 Dataset
+![Dataset](https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/dataset_image.png?raw=true)
 
 ## 📁 Folder Structure
 
