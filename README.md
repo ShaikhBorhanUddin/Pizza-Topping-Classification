@@ -1,4 +1,4 @@
-# Pizza Topping Classification
+# 🍕 Pizza Topping Classification
 <p align="left">
   <img src="https://img.shields.io/badge/Made%20With-Colab-blue?logo=googlecolab&logoColor=white&label=Made%20With" alt="Made with Colab">
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT">
@@ -15,7 +15,7 @@
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/pizza_title_edit.png?raw=true)
 
-## 🍕 Project Overview
+## 📝 Project Overview
 
 ## 📂 Dataset
 ![Dataset](https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/dataset_image.png?raw=true)
