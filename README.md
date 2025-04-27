@@ -37,6 +37,16 @@
 
 ## 📈 ROC Analysis
 
+<p align="center">
+  <img src="https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/roc_b4.png?raw=true" alt="ROC B4" width="49.5%" />
+  <img src="https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/roc_conv.png?raw=true" alt="ROC Conv" width="49.5%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/roc_resnet.png?raw=true" alt="ROC ResNet" width="49.5%" />
+  <img src="https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/roc_vgg.png?raw=true" alt="ROC VGG" width="49.5%" />
+</p>
+
 ## 📉 Confusion Matrix
 
 <p align="center">
