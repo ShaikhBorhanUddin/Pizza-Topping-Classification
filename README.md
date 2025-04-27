@@ -15,30 +15,30 @@
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/pizza_title_edit.png?raw=true)
 
-## Project Overview
+## 🍕 Project Overview
 
-## Dataset
+## 📂 Dataset
 
-## Folder Structure
+## 📁 Folder Structure
 
-## Workflow
+## ⚙️ Workflow
 
-## Experiments
+## 🧪 Experiments
 
-## Results
+## 📊 Results
 
-## ROC Analysis
+## 📈 ROC Analysis
 
-## Confusion Matrix
+## 📉 Confusion Matrix
 
-## Grad-CAM Visualization
+## 🔥 Grad-CAM Visualization
 
-## Future Developments
+## 🚀 Future Developments
 
-## Technology Used
+## 🛠️ Technology Used
 
-## Licence
+## 📄 Licence
 
-## Contact
+## 📬 Contact
 
 
