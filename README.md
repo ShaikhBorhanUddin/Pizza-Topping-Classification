@@ -49,15 +49,21 @@
 
 ## 📉 Confusion Matrix
 
+In the confusion matrices, EfficientNetB4 shows strong performance in correctly identifying Pepperoni pizzas but struggles more with distinguishing Basil pizzas, misclassifying a significant portion as Pepperoni. Mushroom classification also shows moderate confusion, which suggests that EfficientNetB4 has difficulty in separating the Mushroom category clearly from others. In contrast, ConvNeXtBase delivers an overall much stronger and more balanced classification across all three toppings. It maintains high true positives for Basil, Mushroom, and Pepperoni, with only minimal misclassifications between classes. Notably, it achieves particularly good separation for the Mushroom class, an area where EfficientNetB4 had visible confusion, reflecting ConvNeXtBase’s superior feature extraction and generalization ability in this task.
+
 <p align="center">
   <img src="https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/cm_b4.png?raw=true" alt="EfficientNetB4 Confusion Matrix" width="49.5%" />
   <img src="https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/cm_conv.png?raw=true" alt="ConvNeXt Confusion Matrix" width="49.5%" />
 </p>
 
+Looking at ResNet101V2 and VGG19, both models exhibit strong performance for Pepperoni pizzas, correctly classifying the majority of samples. However, they show slightly more confusion when it comes to Basil and Mushroom, particularly with ResNet101V2 where a noticeable portion of Basil samples are misclassified as Pepperoni. VGG19 manages better balance overall but still misclassifies some Mushroom pizzas as either Basil or Pepperoni, indicating a slight weakness in differentiating the more subtle topping differences. While both models handle Pepperoni exceptionally well, their slight struggles with Mushroom prevent them from matching the clean separation achieved by ConvNeXtBase.
+
 <p align="center">
   <img src="https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/cm_resnet.png?raw=true" alt="Confusion Matrix ResNet" width="49.5%" />
   <img src="https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/cm_vgg.png?raw=true" alt="Confusion Matrix VGG" width="49.5%" />
 </p>
+
+Overall, **ConvNeXtBase** emerges as the most balanced and robust model among all, demonstrating superior accuracy and minimal class confusion across all pizza topping categories.
 
 ## 🔥 Grad-CAM Visualization
 
