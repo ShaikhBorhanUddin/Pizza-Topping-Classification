@@ -39,6 +39,14 @@
 
 ## 📉 Confusion Matrix
 
+![Dashboard](https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/cm_b4.png?raw=true)
+![Dashboard](https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/cm_conv.png?raw=true)
+
+<p align="center">
+  <img src="https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/cm_b4.png?raw=true" alt="EfficientNetB4 Confusion Matrix" width="49.5%" />
+  <img src="https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/cm_conv.png?raw=true" alt="ConvNeXt Confusion Matrix" width="49.5%" />
+</p>
+
 ## 🔥 Grad-CAM Visualization
 
 ## 🚀 Future Developments
