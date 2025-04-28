@@ -35,17 +35,23 @@
 | ResNet101V2    | 0.8830   | 0.8691   | 0.3582 | 0.8877    | 0.8830  |
 | VGG19          | 0.8830   | 0.7914   | 0.2685 | 0.8824    | 0.8777  |
 
-## 📈 ROC Analysis
+## 📈 ROC Curve Analysis
+
+The ROC curves for EfficientNetB4 (on the left) show that while the model generally performs well, the curve for the Mushroom class is slightly less steep compared to Basil and Pepperoni, indicating a relatively higher false positive rate for that category. Overall, it still achieves good separability, but not as tightly packed near the top-left corner as a near-perfect classifier would. On the other hand, ConvNeXtBase (on the right) demonstrates consistently strong ROC curves across all three classes — Basil, Mushroom, and Pepperoni. The curves for ConvNeXtBase are closer to the ideal shape, hugging the top-left corner more tightly and indicating higher true positive rates with lower false positives across the board. This confirms that ConvNeXtBase is able to discriminate between pizza toppings more reliably compared to EfficientNetB4.
 
 <p align="center">
   <img src="https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/roc_b4.png?raw=true" alt="ROC B4" width="49.5%" />
   <img src="https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/roc_conv.png?raw=true" alt="ROC Conv" width="49.5%" />
 </p>
 
+For ResNet101V2 (on the left) and VGG19 (on the right), the ROC curves also show strong class separability, although they slightly lag behind ConvNeXtBase. In ResNet101V2, the Pepperoni and Basil classes maintain high AUC behavior, but the Mushroom curve dips slightly compared to others, hinting at minor difficulty in distinguishing that category. Similarly, VGG19's ROC curves are overall strong but exhibit slight variability in the Mushroom class as well. Both models perform admirably, especially for Pepperoni, but the minor inconsistencies, especially around Mushroom classification, reveal that their class separability is not as uniformly high as ConvNeXtBase.
+
 <p align="center">
   <img src="https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/roc_resnet.png?raw=true" alt="ROC ResNet" width="49.5%" />
   <img src="https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/roc_vgg.png?raw=true" alt="ROC VGG" width="49.5%" />
 </p>
+
+Overall, ConvNeXtBase again stands out with the most consistent and highest-performing ROC curves, confirming it as the top model in terms of both classification accuracy and class discrimination.
 
 ## 📉 Confusion Matrix
 
