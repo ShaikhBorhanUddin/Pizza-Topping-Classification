@@ -80,7 +80,7 @@ Since the dataset used for the Pizza Topping Classification project is relativel
   <img src="https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/gradcam_b4_mushroom.png?raw=true" alt="GradCAM B4 Mushroom" width="49.5%" />
 </p>
 
-
+The first two Grad-CAM images belong to EfficientNetB4, focusing on Basil and Mushroom pizzas. For the Basil pizza, the model predominantly concentrates its attention around the center where basil leaves typically appear, though there is noticeable attention spillover toward the edges. For the Mushroom pizza, EfficientNetB4 captures a broader activation across the pizza surface, identifying mushroom patches but with less sharply defined regions, indicating that while the model recognizes the topping, it does not localize it very precisely.
 
 ## 🚀 Future Developments
 
