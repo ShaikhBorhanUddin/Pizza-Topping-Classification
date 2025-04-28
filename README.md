@@ -29,7 +29,29 @@ It is important to note that the dataset is biased towards **Pepperoni** pizzas,
 Originally, the dataset size was approximately **312 MB**, with high-resolution images at **512×512 pixels** in `.jpg` format. To better suit transfer learning models, all images were resized to **224×224 pixels**, a standard input size for architectures like ConvNeXt, EfficientNet, ResNet, and VGG. After resizing, the dataset size was reduced significantly to **31.2 MB**, making it much faster to load and process during training without losing essential visual information.
 
 ## 📁 Folder Structure
-
+```bash
+Pizza-Topping-Classification-Project/ 
+│ 
+├── images/ # Project images (confusion matrix, ROC curves, Grad-CAMs, etc.) │ ├── cm_resnet.png │ ├── cm_vgg.png │ ├── pizza_roc.png │ ├── gradcam_all.png │ └── (other visualizations) 
+│ 
+├── notebooks/ # Jupyter notebooks for training and evaluation 
+|          │ 
+|          ├── convnextbase_training.ipynb 
+|          │ 
+|          ├── efficientnetb4_training.ipynb 
+|          │
+|          ├── resnet101v2_training.ipynb 
+|          │ 
+|          └── vgg19_training.ipynb 
+|
+├── dataset/ # (Optional) Processed dataset (224x224 resized images) │ ├── train/ │ ├── test/ │ └── (images) 
+│ 
+├── README.md # Project overview and documentation 
+|
+├── requirements.txt # Python dependencies 
+|
+└── LICENSE # (Optional) License file
+```
 ## ⚙️ Workflow
 
 The project workflow was designed to ensure efficient experimentation and evaluation.
