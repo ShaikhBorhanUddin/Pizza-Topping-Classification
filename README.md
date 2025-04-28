@@ -32,7 +32,27 @@ Originally, the dataset size was approximately **312 MB**, with high-resolution 
 
 ## ⚙️ Workflow
 
+The project workflow was designed to ensure efficient experimentation and evaluation.
+After preparing the dataset, four pre-trained models were selected and fine-tuned with a unified classification head. Training strategies were adjusted based on early metric stabilization to optimize computing resources.
+Model performance was evaluated through confusion matrices, ROC curves, and Grad-CAM visualizations to understand both classification ability and feature focus.
+Finally, the models were compared to identify the best balance between accuracy, interpretability, and computational efficiency.
+
 ## 🧪 Experiments
+
+In this project, four different deep learning models were tested to classify pizza toppings: ConvNeXtBase, EfficientNetB4, ResNet101V2, and VGG19. All models were trained using preprocessed images of size 224×224 pixels to ensure compatibility with popular transfer learning architectures.
+
+A consistent custom head was used across all models for fair comparison: a Dense layer with 512 units and ReLU activation, followed by a Dropout layer with a 0.5 rate to prevent overfitting. The training was done with a batch size of 256 for all experiments, promoting efficient GPU utilization. Training time was negligible, as nVIDIA A100 gpu was utilized in this experiment.
+
+The total number of trainable parameters varied across models:
+
+| Model           | Parameters (MB) | Training Epochs |
+|-----------------|-----------------|-----------------|
+| ConvNeXtBase    | 336.05 MB        | 70 epochs       |
+| EfficientNetB4  | 70.93 MB         | 30 epochs       |
+| ResNet101V2     | 166.62 MB        | 40 epochs       |
+| VGG19           | 77.39 MB         | 30 epochs       |
+
+Throughout training, it was observed that all models' performance metrics — including accuracy, loss, precision, recall, and F1-score — stabilized within the first 10 epochs. After initially testing ConvNeXtBase for 70 epochs, it was decided to reduce the number of training epochs for the subsequent models to optimize computational resources without compromising final performance.
 
 ## 📊 Results
 
