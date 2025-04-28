@@ -28,12 +28,16 @@
 
 ## 📊 Results
 
+Performance Matrix summary for all tested models are given in the following chart.
+
 | Model          | Accuracy | F1-Score | Loss   | Precision | Recall  |
 |----------------|----------|----------|--------|-----------|---------|
 | ConvNeXtBase   | 0.9362   | 0.9454   | 0.2286 | 0.9412    | 0.9362  |
 | EfficientNetB4 | 0.8777   | 0.8225   | 0.2804 | 0.9011    | 0.8723  |
 | ResNet101V2    | 0.8830   | 0.8691   | 0.3582 | 0.8877    | 0.8830  |
 | VGG19          | 0.8830   | 0.7914   | 0.2685 | 0.8824    | 0.8777  |
+
+Based on the performance matrix, ConvNeXtBase clearly outperforms the other models with an impressive accuracy of 93.62%, an F1-score of 94.54%, and the lowest loss of 0.2286, indicating both high precision and recall across the pizza topping classes. EfficientNetB4, while showing strong precision at 90.11%, lags behind in recall and F1-score, reflecting that it struggles more to correctly identify all positive cases despite making fewer false predictions. ResNet101V2 delivers a balanced performance with an accuracy of 88.30% and a decent F1-score of 86.91%, showing it maintains reliability but with slightly higher loss and variability. VGG19, although achieving the same accuracy as ResNet101V2, has a lower F1-score and suggests that its predictions are less consistent across the different classes. Overall, ConvNeXtBase is the most balanced and high-performing model across all key evaluation metrics.
 
 ## 📈 ROC Curve Analysis
 
@@ -95,6 +99,15 @@ The second row features ConvNeXtBase Grad-CAMs for Mushroom and Pepperoni pizzas
 </p>
 
 The third row shows the Grad-CAM outputs for ResNet101V2, visualizing Pepperoni and Basil pizzas. ResNet101V2 captures the general area of the Pepperoni toppings fairly well but with slightly more diffused and scattered attention compared to ConvNeXtBase. For the Basil pizza, ResNet101V2's attention is reasonably centered but tends to spread toward irrelevant parts of the pizza crust, suggesting the model picks up both topping-specific and some background features during classification.
+
+<p align="center">
+  <img src="https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/gradcam_vgg_basil.png?raw=true" alt="GradCAM VGG Basil" width="49.5%" />
+  <img src="https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/gradcam_vgg_mushroom.png?raw=true" alt="GradCAM VGG Mushroom" width="49.5%" />
+</p>
+
+The fourth and final row contains the Grad-CAM visualizations for VGG19, focusing on Basil and Mushroom pizzas. For both toppings, VGG19 shows broader and less concentrated heatmaps, indicating a less precise understanding of the toppings compared to the other models. Although the model correctly identifies the topping regions, the activations often cover unnecessary parts of the image, such as the pizza base or surrounding background, which may slightly impact classification clarity.
+
+In conclusion, ConvNeXtBase produced the sharpest and most accurate Grad-CAM attention maps, clearly focusing on the toppings and outperforming the other models in visual localization.
 
 ## 🚀 Future Developments
 
