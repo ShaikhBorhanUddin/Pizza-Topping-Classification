@@ -18,7 +18,15 @@
 ## 📝 Project Overview
 
 ## 📂 Dataset
-![Dataset](https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/dataset_image.png?raw=true)
+
+The dataset [Pizza Toppings Classification](https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification) used in this project is sourced from Kaggle. In real-world pizza images, many visible features can commonly appear, such as olives, onions, green peppers, sausage, extra cheese, and various seasoning elements. However, this dataset specifically focuses on only three toppings: **Basil**, **Mushroom**, and **Pepperoni**. Care was taken during dataset construction to ensure that no feature overlapping occurred — meaning each image contains only one distinct topping type without mixing multiple features.
+The dataset  is sourced from Kaggle.
+
+![Dashboard](https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/dataset_image.png?raw=true)
+
+It is important to note that the dataset is biased towards **Pepperoni** pizzas, with **1,309** images, compared to **751** images for **Basil** and only **304** images for **Mushroom**. This imbalance needed to be considered carefully during model evaluation and interpretation.
+
+Originally, the dataset size was approximately **312 MB**, with high-resolution images at **512×512 pixels** in `.jpg` format. To better suit transfer learning models, all images were resized to **224×224 pixels**, a standard input size for architectures like ConvNeXt, EfficientNet, ResNet, and VGG. After resizing, the dataset size was reduced significantly to **31.2 MB**, making it much faster to load and process during training without losing essential visual information.
 
 ## 📁 Folder Structure
 
