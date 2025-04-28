@@ -73,6 +73,8 @@ Overall, **ConvNeXtBase** emerges as the most balanced and robust model among al
 
 ## 🔥 Grad-CAM Visualization
 
+Since the dataset used for the Pizza Topping Classification project is relatively small and somewhat biased, perfect visual focus from the models was not expected. Grad-CAM visualizations help in interpreting how the models "see" the toppings and where they concentrate their attention during prediction. While basic visual localization was achieved, some inconsistencies and diffused focus areas were understandable given the data limitations. Additionally, more advanced visualization techniques like Grad-CAM++ or Score-CAM were not applied, as they would have been unnecessarily complex for the scope of this project.
+
 ## 🚀 Future Developments
 
 ## 🛠️ Technology Used
