@@ -82,6 +82,20 @@ Since the dataset used for the Pizza Topping Classification project is relativel
 
 The first two Grad-CAM images belong to EfficientNetB4, focusing on Basil and Mushroom pizzas. For the Basil pizza, the model predominantly concentrates its attention around the center where basil leaves typically appear, though there is noticeable attention spillover toward the edges. For the Mushroom pizza, EfficientNetB4 captures a broader activation across the pizza surface, identifying mushroom patches but with less sharply defined regions, indicating that while the model recognizes the topping, it does not localize it very precisely.
 
+<p align="center">
+  <img src="https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/gradcam_conv_mushroom.png?raw=true" alt="GradCAM Mushroom" width="49.5%" />
+  <img src="https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/gradcam_conv_pepperoni.png?raw=true" alt="GradCAM Pepperoni" width="49.5%" />
+</p>
+
+The second row features ConvNeXtBase Grad-CAMs for Mushroom and Pepperoni pizzas. The Mushroom heatmap shows a tighter and more concentrated activation around mushroom areas compared to EfficientNetB4, suggesting better feature localization. For Pepperoni, ConvNeXtBase achieves very sharp focus, highlighting the individual pepperoni slices with high intensity. This suggests that ConvNeXtBase not only recognizes the topping well but also pinpoints its physical locations much more accurately.
+
+<p align="center">
+  <img src="https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/gradcam_resnet_pepperoni.png?raw=true" alt="GradCAM ResNet Pepperoni" width="49.5%" />
+  <img src="https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/gradcam_resnet_basil.png?raw=true" alt="GradCAM ResNet Basil" width="49.5%" />
+</p>
+
+The third row shows the Grad-CAM outputs for ResNet101V2, visualizing Pepperoni and Basil pizzas. ResNet101V2 captures the general area of the Pepperoni toppings fairly well but with slightly more diffused and scattered attention compared to ConvNeXtBase. For the Basil pizza, ResNet101V2's attention is reasonably centered but tends to spread toward irrelevant parts of the pizza crust, suggesting the model picks up both topping-specific and some background features during classification.
+
 ## 🚀 Future Developments
 
 ## 🛠️ Technology Used
