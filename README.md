@@ -181,6 +181,10 @@ Although the current project successfully demonstrates pizza topping classificat
 
 ## 🛠️ Technology Used
 
+`Python 3.10+` `TensorFlow 2.15` `Keras` `OpenCV` `Matplotlib ` `Seaborn` `Scikit-learn` `Google Colab Pro` `Kaggle` `Grad-CAM`
+
+This project was developed using ***Python 3.10+*** as the core programming language. The deep learning models were built and trained using ***TensorFlow 2.15*** alongside ***Keras***, which provided a high-level, user-friendly API for model design and training. ***OpenCV*** was utilized for image preprocessing tasks, including reading and resizing the input images to match the models' input size requirements. For visualization and performance analysis, ***Matplotlib*** and ***Seaborn*** were employed to plot confusion matrices, ROC curves, and Grad-CAM outputs. ***Scikit-learn*** was instrumental in calculating evaluation metrics such as accuracy, F1-score, precision, and recall, as well as for generating ROC curve data. The training was conducted on ***Google Colab Pro*** to leverage powerful GPU resources (A100) for faster experimentation. The pizza topping dataset was sourced from ***Kaggle***, where initial exploration and verification of data quality were also performed.
+
 ## 📄 Licence
 
 ## 📬 Contact
