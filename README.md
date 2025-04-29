@@ -19,7 +19,7 @@
 
 ## 📂 Dataset
 
-The dataset [Pizza Toppings Classification](https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification) used in this project is sourced from Kaggle. In real-world pizza images, many visible features can commonly appear, such as olives, onions, green peppers, sausage, extra cheese, and various seasoning elements. However, this dataset specifically focuses on only three toppings: **Basil**, **Mushroom**, and **Pepperoni**. Care was taken during dataset construction to ensure that no feature overlapping occurred — meaning each image contains only one distinct topping type without mixing multiple features.
+The dataset [Pizza Toppings Classification](https://www.kaggle.com/datasets/gauravduttakiit/pizza-toppings-classification) used in this project is sourced from Kaggle. In real-world pizza images, many visible features can commonly appear, such as olives, onions, green peppers, sausage, extra cheese, and various seasoning elements. However, this dataset specifically focuses on only three toppings: **Basil**, **Mushroom**, and **Pepperoni**. Care was taken during dataset construction to ensure that no feature overlapping occurred — meaning each image contains only one distinct topping type without mixing multiple features.
 The dataset  is sourced from Kaggle.
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Pizza-Topping-Classification-Project/blob/main/images/dataset_image.png?raw=true)
