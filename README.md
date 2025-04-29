@@ -32,9 +32,9 @@ Originally, the dataset size was approximately **312 MB**, with high-resolution 
 ```bash
 Pizza-Topping-Classification-Project/ 
 │ 
-├── images/ # Project images (confusion matrix, ROC curves, Grad-CAMs, etc.) │ ├── cm_resnet.png │ ├── cm_vgg.png │ ├── pizza_roc.png │ ├── gradcam_all.png │ └── (other visualizations) 
+├── images/                                  # Project images (dataset visualization, confusion matrix, ROC curves, Grad-CAMs)
 │ 
-├── notebooks/ # Jupyter notebooks for training and evaluation 
+├── notebooks/                               # Jupyter notebooks for training and evaluation 
 |          │ 
 |          ├── convnextbase_training.ipynb 
 |          │ 
@@ -44,14 +44,15 @@ Pizza-Topping-Classification-Project/
 |          │ 
 |          └── vgg19_training.ipynb 
 |
-├── dataset/ # (Optional) Processed dataset (224x224 resized images) │ ├── train/ │ ├── test/ │ └── (images) 
+├── dataset/                                 # Not included in this repository due to large number of images
 │ 
-├── README.md # Project overview and documentation 
+├── README.md                                # Project overview and documentation 
 |
-├── requirements.txt # Python dependencies 
+├── requirements.txt                         # Python dependencies 
 |
-└── LICENSE # (Optional) License file
+└── LICENSE                                  # License file
 ```
+
 ## ⚙️ Workflow
 
 The project workflow was designed to ensure efficient experimentation and evaluation.
