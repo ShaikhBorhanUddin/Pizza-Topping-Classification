@@ -50,7 +50,7 @@ Pizza-Topping-Classification-Project/
 |
 ├── requirements.txt                # Python dependencies 
 |
-└── LICENSE                                  # License file
+└── LICENSE                         # License file
 ```
 
 ## ⚙️ Workflow
