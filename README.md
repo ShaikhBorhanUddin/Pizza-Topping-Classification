@@ -17,6 +17,20 @@
 
 ## 📝 Project Overview
 
+Pizza Topping Classification is a deep learning project aimed at automatically classifying different pizza toppings from images. Using a Convolutional Neural Network (CNN) architecture, the model is trained to accurately distinguish between multiple topping categories, helping automate tasks in food ordering, quality control, and restaurant management systems.
+
+The project covers the full deep learning workflow, including:
+
+- Dataset preprocessing and augmentation to enhance model robustness.
+
+- Building and training an efficient CNN model from scratch.
+
+- Performance evaluation using accuracy, loss curves, and classification reports.
+
+- Visualizing predictions to validate real-world applicability.
+
+This repository is structured for clarity and reproducibility, making it easy for anyone to understand, retrain, and deploy the model for their own pizza classification tasks or adapt it to other food classification problems.
+
 ## 📂 Dataset
 
 The dataset [Pizza Toppings Classification](https://www.kaggle.com/datasets/gauravduttakiit/pizza-toppings-classification) used in this project is sourced from Kaggle. In real-world pizza images, many visible features can commonly appear, such as olives, onions, green peppers, sausage, extra cheese, and various seasoning elements. However, this dataset specifically focuses on only three toppings: **Basil**, **Mushroom**, and **Pepperoni**. Care was taken during dataset construction to ensure that no feature overlapping occurred — meaning each image contains only one distinct topping type without mixing multiple features.
@@ -62,7 +76,7 @@ Finally, the models were compared to identify the best balance between accuracy,
 
 ## 🧪 Experiments
 
-In this project, four different deep learning models were tested to classify pizza toppings: ConvNeXtBase, EfficientNetB4, ResNet101V2, and VGG19. All models were trained using preprocessed images of size 224×224 pixels to ensure compatibility with popular transfer learning architectures.
+In this project, four different deep learning models were tested to classify pizza toppings: `ConvNeXtBase`, `EfficientNetB4`, `ResNet101V2`, and `VGG19`. All models were trained using preprocessed images of size 224×224 pixels to ensure compatibility with popular transfer learning architectures.
 
 A consistent custom head was used across all models for fair comparison: a Dense layer with 512 units and ReLU activation, followed by a Dropout layer with a 0.5 rate to prevent overfitting. The training was done with a batch size of 256 for all experiments, promoting efficient GPU utilization. Training time was negligible, as nVIDIA A100 gpu was utilized in this experiment.
 
