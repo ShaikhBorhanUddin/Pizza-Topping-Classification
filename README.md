@@ -17,19 +17,7 @@
 
 ## 📝 Project Overview
 
-Pizza Topping Classification is a deep learning project aimed at automatically classifying different pizza toppings from images. Using a Convolutional Neural Network (CNN) architecture, the model is trained to accurately distinguish between multiple topping categories, helping automate tasks in food ordering, quality control, and restaurant management systems.
-
-The project covers the full deep learning workflow, including:
-
-- Dataset preprocessing and augmentation to enhance model robustness.
-
-- Building and training an efficient CNN model from scratch.
-
-- Performance evaluation using accuracy, loss curves, and classification reports.
-
-- Visualizing predictions to validate real-world applicability.
-
-This repository is structured for clarity and reproducibility, making it easy for anyone to understand, retrain, and deploy the model for their own pizza classification tasks or adapt it to other food classification problems.
+The Pizza Topping Classification project is centered around developing a deep learning model capable of automatically identifying different pizza toppings from images. Using convolutional neural networks (CNNs), the project aims to classify pizzas based on their topping types with high accuracy, demonstrating a practical application of computer vision techniques in the food industry. The work includes preparing and preprocessing a labeled dataset of pizza images, applying data augmentation strategies to enhance model robustness, building and training a CNN architecture, and evaluating the model using standard classification metrics such as accuracy, precision, recall, and confusion matrix analysis. All code is organized for clarity and reproducibility, with visualizations to track model performance. This project serves as a strong example of how AI can be applied to real-world tasks in food recognition, smart restaurant systems, and culinary tech innovation.
 
 ## 📂 Dataset
 
