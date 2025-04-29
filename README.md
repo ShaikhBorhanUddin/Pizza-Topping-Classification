@@ -32,9 +32,9 @@ Originally, the dataset size was approximately **312 MB**, with high-resolution 
 ```bash
 Pizza-Topping-Classification-Project/ 
 │ 
-├── images/                                  # Project images (dataset visualization, confusion matrix, ROC curves, Grad-CAMs)
+├── images/                       # Project images (dataset visualization, confusion matrix, ROC curves, Grad-CAMs)
 │ 
-├── notebooks/                               # Jupyter notebooks for training and evaluation 
+├── notebooks/                    # Jupyter notebooks for training and evaluation 
 |          │ 
 |          ├── convnextbase_training.ipynb 
 |          │ 
@@ -44,11 +44,11 @@ Pizza-Topping-Classification-Project/
 |          │ 
 |          └── vgg19_training.ipynb 
 |
-├── dataset/                                 # Not included in this repository due to large number of images
+├── dataset/                        # Not included in this repository due to large number of images
 │ 
-├── README.md                                # Project overview and documentation 
+├── README.md                       # Project overview and documentation 
 |
-├── requirements.txt                         # Python dependencies 
+├── requirements.txt                # Python dependencies 
 |
 └── LICENSE                                  # License file
 ```
