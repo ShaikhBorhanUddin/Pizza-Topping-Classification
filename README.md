@@ -159,7 +159,25 @@ The fourth and final row contains the Grad-CAM visualizations for VGG19, focusin
 
 In conclusion, ConvNeXtBase produced the sharpest and most accurate Grad-CAM attention maps, clearly focusing on the toppings and outperforming the other models in visual localization.
 
-## 🚀 Future Developments
+## 🔮 Future Developments
+
+Although the current project successfully demonstrates pizza topping classification using deep learning and Grad-CAM visualization, there are several potential future improvements:
+
+- The current dataset focuses only on three toppings: basil, mushroom, and pepperoni. Future work could introduce more toppings (such as olives, onions, sausages, and green peppers) and mixed toppings scenarios, making the model more robust and closer to real-world pizzas.
+
+- The dataset is notably biased toward pepperoni images. Future datasets could be better balanced to ensure the model does not develop a bias toward the majority class.
+
+- Currently, each image has only one topping. Extending the model for multi-label classification would allow detecting multiple toppings present in a single pizza image — a more realistic and challenging setup.
+
+- Grad-CAM was used for explainability. Future improvements could involve techniques like **Grad-CAM++** and **Score-CAM** for even sharper and more localized explanations without significantly increasing model complexity.
+
+- The ConvNeXtBase model is highly accurate but large (around 1GB). Model compression, pruning, quantization, or knowledge distillation techniques could make deployment lighter without sacrificing much accuracy.
+
+- A **Flask** or **FastAPI**-based deployment where users can upload pizza images and get topping predictions with Grad-CAM visualizations would enhance usability and accessibility.
+
+- Synthetic pizza images could be generated using **GAN**s (Generative Adversarial Networks) to expand the dataset without manual labeling, particularly for underrepresented toppings.
+
+- Exploring newer or more lightweight models like **ConvNeXtV2**, **MobileViT**, or **CoAtNet** could offer better trade-offs between accuracy and computational cost.
 
 ## 🛠️ Technology Used
 
