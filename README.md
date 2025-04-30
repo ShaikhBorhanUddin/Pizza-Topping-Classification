@@ -38,13 +38,13 @@ Pizza-Topping-Classification-Project/
 │ 
 ├── notebooks/            # Jupyter notebooks for training and evaluation 
 |          │ 
-|          ├── convnextbase_training.ipynb 
+|          ├── Pizza_Topping_Classification_ConvNeXtbase.ipynb 
 |          │ 
-|          ├── efficientnetb4_training.ipynb 
+|          ├── Pizza_Topping_Classification_ConvNeXtbase.ipynb
 |          │
-|          ├── resnet101v2_training.ipynb 
+|          ├── Pizza_Topping_Classification_ConvNeXtbase.ipynb 
 |          │ 
-|          └── vgg19_training.ipynb 
+|          └── Pizza_Topping_Classification_ConvNeXtbase.ipynb 
 |
 ├── dataset/             # Not included in this repository due to large number of images
 │ 
