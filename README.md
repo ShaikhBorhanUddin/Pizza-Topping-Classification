@@ -196,13 +196,9 @@ This project is licensed under the MIT License. You are free to use, modify, and
 
 If you have any questions or would like to connect, feel free to reach out!
 
-Shaikh Borhan Uddin
-
-📧 Email: shaikhborhanuddin@gmail.com
-
-🔗 LinkedIn
-
-🌐 Portfolio
+**Shaikh Borhan Uddin**  
+📧 Email: [`shaikhborhanuddin@gmail.com`](mailto:shaikhborhanuddin@gmail.com)  
+🔗 [`LinkedIn`](https://www.linkedin.com/in/shaikh-borhan-uddin-905566253/)  
+🌐 [`Portfolio`](https://github.com/ShaikhBorhanUddin)
 
 Feel free to fork the repository, improve the queries, or add visualizations!
-
