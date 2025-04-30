@@ -36,15 +36,15 @@ Pizza-Topping-Classification-Project/
 │ 
 ├── images/               # Project images (dataset visualization, confusion matrix, ROC curves, Grad-CAMs)
 │ 
-├── notebooks/            # Jupyter notebooks for training and evaluation 
+├── notebooks/            # ipynb files for training and evaluation 
 |          │ 
 |          ├── Pizza_Topping_Classification_ConvNeXtbase.ipynb 
 |          │ 
-|          ├── Pizza_Topping_Classification_ConvNeXtbase.ipynb
+|          ├── Pizza_Topping_Classification_EfficientNetB4.ipynb
 |          │
-|          ├── Pizza_Topping_Classification_ConvNeXtbase.ipynb 
+|          ├── Pizza_Topping_Classification_ResNet101V2.ipynb 
 |          │ 
-|          └── Pizza_Topping_Classification_ConvNeXtbase.ipynb 
+|          └── Pizza_Topping_Classification_VGG19.ipynb 
 |
 ├── dataset/             # Not included in this repository due to large number of images
 │ 
